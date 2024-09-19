@@ -1,0 +1,11 @@
+.btn-custom {
+    background-color: transparent;
+    color: #fff; /* Default text color white */
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .btn-custom:hover {
+    background-color: #fff; /* White background on hover */
+    color: #007bff; /* Text color changes to primary on hover */
+  }
+  

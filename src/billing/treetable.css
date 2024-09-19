@@ -1,0 +1,31 @@
+table {
+    width: 30px;
+    border-collapse: collapse;
+    border: 2px solid #ddd; /* Border around table */
+  }
+  
+  th,
+  td {
+    padding: 3px 6px;
+    text-align: center;
+    color: black;
+  }
+  
+  thead th {
+    background-color: #bdb6b6; /* Background color for header cells */
+  }
+  
+  tfoot td {
+    background-color: #bdb6b6; /* Background color for footer cells */
+  }
+  
+  tr:nth-child(even),
+  tr:nth-child(odd) {
+    background-color: #f71414; /* Alternate row background color */
+  }
+  
+  /* Hover effect */
+  tr:hover {
+    background-color: #ddd;
+  }
+  
